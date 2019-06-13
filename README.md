@@ -32,9 +32,9 @@ Start the docker image:
 
 The above script will use your current username to launch gnucash.
 
-**Access application**
+**Troubleshooting**
 
-If the application cannot connect the display try the below before startint the
-container:
+If the application cannot connect to the display try the below command before
+starting the container:
 
 `xhost +LOCAL:`
