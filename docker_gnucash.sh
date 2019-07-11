@@ -7,7 +7,10 @@ set -x
 set -e
 
 GID=$(id -g "$USERNAME")
-# xhost +LOCAL:
+# The xhost program is used to add and delete host names or user names to the
+# list allowed to make connections to the X server.
+# xhost +local:root
+xhost +LOCAL:
 
 docker run \
     --rm \
